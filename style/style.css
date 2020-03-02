@@ -11,8 +11,10 @@ body {
 }
 
 header {
-    padding-left: 30px;
-    box-sizing: border-box;
+   display: flex;
+    flex-direction: row;
+    align-item: center;
+    justify-content: center;
 }
 
 main {
