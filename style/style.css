@@ -1,0 +1,105 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: auto;
+
+}
+
+#img-options {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    overflow-y: scroll;
+    height: 95%;
+}
+
+#img-options img {
+    width: 100%;
+    height: auto;
+}
+
+section:first-child {
+    width: 30vw;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+.aside-images {
+    height: 90vh;
+}
+
+.content {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+
+}
+
+section:nth-child(2) {
+    width: 45vw;
+    height: 90vh;
+}
+
+.tools {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#saved {
+    width: 120px;
+    color: white;
+    padding: 7.5px 12px;
+    font-size: 1.1rem;
+    background: #2c3e50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border: 1px solid #2c3e50;
+    transition: all ease .2s;
+    text-decoration: none;
+}
+
+.buttons:hover {
+    cursor: pointer;
+    border: 1px solid #27ae60;
+    text-decoration: none;
+}
+
+.input-style {
+    position: absolute;
+}
+
+.input-style:focus {
+    border: 1px solid #a5bed8;
+}
+
+.inctruction{
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.inctruction span {
+    font-weight: bold;
+}
